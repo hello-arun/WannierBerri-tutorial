@@ -1,0 +1,30 @@
+name: wnrberry
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - autopep8
+  - tabulate
+  - py4vasp
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - jupyterlab-lsp
+  - conda-forge::phonopy
+  - pip:
+    - pymatgen
+    - sumo
+    - ase
+    - wannierberri
+    - pythtb
+    - sphinx
+    - sphinx_rtd_theme
+    - sphinx-pyreverse
+    - sphinx_sitemap
+    - nbsphinx
+
+prefix: /home/jangira/miniconda3/envs/wnrberry
